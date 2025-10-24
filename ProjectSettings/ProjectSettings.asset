@@ -82,7 +82,7 @@ PlayerSettings:
   androidApplicationEntry: 2
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -823,7 +823,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: BCG_RCC;RCC_URP
+    Android: BCG_RCC;RCC_URP;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     EmbeddedLinux: BCG_RCC;RCC_URP
     GameCoreScarlett: BCG_RCC;RCC_URP
     GameCoreXboxOne: BCG_RCC;RCC_URP
@@ -834,10 +834,10 @@ PlayerSettings:
     PS5: BCG_RCC;RCC_URP
     QNX: BCG_RCC;RCC_URP
     ReservedCFE: BCG_RCC;RCC_URP
-    Standalone: INPUTTER;BCG_RCC;RCC_URP
+    Standalone: INPUTTER;BCG_RCC;RCC_URP;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     VisionOS: BCG_RCC;RCC_URP
     WebGL: BCG_RCC;RCC_URP
-    Windows Store Apps: BCG_RCC;RCC_URP
+    Windows Store Apps: BCG_RCC;RCC_URP;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     XboxOne: BCG_RCC;RCC_URP
     iPhone: BCG_RCC;RCC_URP
     tvOS: BCG_RCC;RCC_URP
