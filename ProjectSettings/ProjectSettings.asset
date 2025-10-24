@@ -823,7 +823,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: BCG_RCC;RCC_URP;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+    Android: BCG_RCC;RCC_URP;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;INPUTTER
     EmbeddedLinux: BCG_RCC;RCC_URP
     GameCoreScarlett: BCG_RCC;RCC_URP
     GameCoreXboxOne: BCG_RCC;RCC_URP

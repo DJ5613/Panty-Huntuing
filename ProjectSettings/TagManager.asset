@@ -17,9 +17,9 @@ TagManager:
   - RCC_WheelCollider
   - RCC_DetachablePart
   - RCC_Prop
-  - 
-  - 
-  - 
+  - RCC
+  - RCC_Trailer
+  - RCC_Crasher
   - 
   - 
   - 
