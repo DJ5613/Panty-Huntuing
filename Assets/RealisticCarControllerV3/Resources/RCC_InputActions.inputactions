@@ -599,6 +599,17 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "",
+                    "id": "d3c5e53e-792d-4556-ad03-79a1f0e36fdd",
+                    "path": "<Logitech G29 Racing Wheel>/brakeAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "wasd",
                     "id": "b84118c6-f280-4827-aec2-23b358ff2839",
                     "path": "1DAxis",
@@ -715,6 +726,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Oculus Quest",
+                    "action": "Steering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90b09cb9-c1f2-43e8-8d0b-de19e224a6ba",
+                    "path": "<Logitech G29 Racing Wheel>/Steering",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Steering",
                     "isComposite": false,
                     "isPartOfComposite": false
