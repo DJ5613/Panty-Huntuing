@@ -10,8 +10,9 @@ public class SphereCollector : MonoBehaviour
     public GameObject objectToSpawn; // Объект для спавна (выбирается в инспекторе)
     public Transform[] spawnPoints = new Transform[10]; // 10 точек спавна
     public TMP_Text counterText; // Ссылка на UI текст
+    public Object endGame;
 
-    private int collectedCount = 0;
+    public int collectedCount = 0;
     private List<GameObject> activeObjects = new List<GameObject>();
 
     void Start()
@@ -58,6 +59,10 @@ public class SphereCollector : MonoBehaviour
         activeObjects.Remove(collectedObject);
         Destroy(collectedObject);
         UpdateCounter();
+        if (collectedCount == 10)
+        {
+
+        }
     }
 
     void UpdateCounter()
