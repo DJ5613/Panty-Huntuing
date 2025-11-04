@@ -465,6 +465,17 @@ public partial class @RCC_InputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
+                    ""name"": """",
+                    ""id"": ""64a0823e-6e01-460d-b9bf-a729a444b8d3"",
+                    ""path"": ""<Keyboard>/rightBracket"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Throttle"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""keyboard"",
                     ""id"": ""719ca6b9-d323-4341-8e55-caa156a602e8"",
                     ""path"": ""1DAxis(minValue=0)"",
@@ -696,6 +707,17 @@ public partial class @RCC_InputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
+                    ""name"": """",
+                    ""id"": ""d265b951-403f-4566-9359-26318daa5f49"",
+                    ""path"": ""<Keyboard>/leftBracket"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Brake"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""wasd"",
                     ""id"": ""b84118c6-f280-4827-aec2-23b358ff2839"",
                     ""path"": ""1DAxis"",
@@ -820,6 +842,17 @@ public partial class @RCC_InputActions: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""90b09cb9-c1f2-43e8-8d0b-de19e224a6ba"",
                     ""path"": ""<Logitech G29 Racing Wheel>/Steering"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Steering"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c65959b3-57a7-4da2-b475-bb65698f19e5"",
+                    ""path"": ""<Keyboard>/o"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
