@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 331086d91d4e78f4581c124eced36c02, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -22396,6 +22396,10 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 356535190147870562, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 580181198717169269, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.32
@@ -22452,6 +22456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buggy
       objectReference: {fileID: 0}
+    - target: {fileID: 1211936211225920915, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1518019553306896143, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -22492,6 +22500,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 3708083799145591333, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4035884009204248543, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       propertyPath: m_SizeDelta.x
       value: 263.56
@@ -22500,9 +22512,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4916979814917113775, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5588413271814964826, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       propertyPath: m_Name
       value: ItemCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351591654606568032, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
