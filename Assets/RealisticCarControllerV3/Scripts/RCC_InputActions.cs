@@ -311,6 +311,17 @@ public partial class @RCC_InputActions: IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
+                    ""name"": """",
+                    ""id"": ""a100ccd5-331e-4205-b46a-73fa5762b621"",
+                    ""path"": ""<Logitech G29 Racing Wheel>/throttleAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Throttle"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""arrows"",
                     ""id"": ""f11f01e4-cf2c-47ed-ab18-9f957fe8913a"",
                     ""path"": ""1DAxis(minValue=0)"",
@@ -449,17 +460,6 @@ public partial class @RCC_InputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Oculus Quest"",
-                    ""action"": ""Throttle"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a100ccd5-331e-4205-b46a-73fa5762b621"",
-                    ""path"": ""<Logitech G29 Racing Wheel>/throttleAxis"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
                     ""action"": ""Throttle"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false

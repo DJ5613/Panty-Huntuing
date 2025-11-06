@@ -12,6 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 4bc798b9e1b2c204dbc459bd6f6aa216
   - enabled: 1
+    path: Assets/SimplePoly City - Low Poly Assets/Demo/SimplePoly City - Low Poly
+      Assets_Demo Scene.unity
+    guid: 7e6d3f4e5d896154ab4438845532ac3e
+  - enabled: 0
     path: Assets/Playground Low Poly/Maps/Demo.unity
     guid: b0de0711692b843459ecac0863bcc297
   m_configObjects:

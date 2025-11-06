@@ -1,16 +1,17 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class SphereCollector : MonoBehaviour
 {
+
     [Header("Settings")]
     public GameObject objectToSpawn; // Объект для спавна (выбирается в инспекторе)
     public Transform[] spawnPoints = new Transform[10]; // 10 точек спавна
     public TMP_Text counterText; // Ссылка на UI текст
-    public Object endGame;
+    public Canvas endGame;
+    public TMP_Text endText;
+    public AudioSource source;
 
     public int collectedCount = 0;
     private List<GameObject> activeObjects = new List<GameObject>();
@@ -42,26 +43,29 @@ public class SphereCollector : MonoBehaviour
 
     void CreateObject(Vector3 position)
     {
-        position.y =  (float) 9.5;
+        position.y =  1;
         // Создаем объект
         GameObject newObject = Instantiate(objectToSpawn, position, Quaternion.identity);
 
         // Добавляем скрипт для сбора
-        SphereItem item = newObject.AddComponent<SphereItem>();
+        SphereItem item = newObject.GetComponent<SphereItem>();
         item.collector = this;
 
         activeObjects.Add(newObject);
     }
 
-    public void CollectObject(GameObject collectedObject)
+    public void CollectObject(GameObject collectedObject, float destroyDelay)
     {
         collectedCount++;
         activeObjects.Remove(collectedObject);
-        Destroy(collectedObject);
+        Destroy(collectedObject, destroyDelay);
         UpdateCounter();
-        if (collectedCount == 10)
+        if (collectedCount >= 7)
         {
-
+            endGame.gameObject.SetActive(true);
+            source.Play();
+            endText.text = "Вы выиграли! Нажмите LeftShift для выхода в меню";
+            Time.timeScale = 0f;
         }
     }
 
@@ -69,23 +73,7 @@ public class SphereCollector : MonoBehaviour
     {
         if (counterText != null)
         {
-            counterText.text = $"Collected: {collectedCount}/10";
+            counterText.text = $"Collected: {collectedCount}/7";
         }
-    }
-
-    // Метод для перезапуска (можно вызвать из других скриптов)
-    public void RespawnObjects()
-    {
-        // Очищаем старые объекты
-        foreach (GameObject obj in activeObjects)
-        {
-            if (obj != null)
-                Destroy(obj);
-        }
-        activeObjects.Clear();
-        collectedCount = 0;
-
-        // Создаем новые
-        SpawnObjects();
     }
 }
