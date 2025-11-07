@@ -7,7 +7,7 @@ public class Edenu : MonoBehaviour
     public InputControllerReader inputControllerReader;
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadScene(0);
         Debug.Log("Загрузка сцены");
     }
 

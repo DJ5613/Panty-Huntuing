@@ -22777,7 +22777,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 199970583339015890, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 580181198717169269, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       insertIndex: -1
@@ -22807,10 +22808,24 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 580181198717169272, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1136413350}
+    - targetCorrespondingSourceObject: {fileID: 580181198717169272, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1136413351}
     - targetCorrespondingSourceObject: {fileID: 580181198666549898, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1195526615}
   m_SourcePrefab: {fileID: 100100000, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+--- !u!114 &1062571888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 580181198717169275, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
+  m_PrefabInstance: {fileID: 1062571887}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136413344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25271813931d814680ab7c84ef90710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1064933645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24562,6 +24577,22 @@ MonoBehaviour:
   counterText: {fileID: 946843530}
   endGame: {fileID: 1399362560}
   endText: {fileID: 1585841813}
+--- !u!114 &1136413351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136413344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7fbf6bf5d84a49a8e0daeb7f77202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::G29Rule
+  carController: {fileID: 1062571888}
+  g29Controller: {fileID: 11400000, guid: 8268bb9eff5a1954492cd4817fb37528, type: 2}
+  steeringSensitivity: 1
+  steeringDeadZone: 0.1
 --- !u!4 &1137563300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
@@ -31643,7 +31674,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1711281289}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -37454,7 +37485,7 @@ Transform:
   m_GameObject: {fileID: 1612722009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.47, z: 0.02}
+  m_LocalPosition: {x: -0.3, y: -0.51, z: -0.16}
   m_LocalScale: {x: 0.75757575, y: 0.75757575, z: 0.75757575}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39935,11 +39966,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1d3fc70685d97b748ac1264d8da02551, type: 3}
   m_PrefabInstance: {fileID: 2104282230}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1711281289 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 1518019553193314184, guid: 75fa52e386dc2ad42b04bdb808d23c36, type: 3}
-  m_PrefabInstance: {fileID: 1062571887}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1711524377 stripped
 Transform:
